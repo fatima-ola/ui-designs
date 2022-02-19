@@ -1,13 +1,138 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.badge-user {
+  display: flex;
+  background: #74a0c7;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  border: radius 8px;
+  color: #000000;
+}
+
+.bi-exclamation-triangle-fill {
+  margin-top: -4rem;
+}
+
+.invoice-card {
+  margin-top: -3rem;
+  box-shadow: 0px 5px 5px 0px rgba(83, 83, 83, 0.1);
+}
+
+.section-card {
+  box-shadow: 0px 5px 5px 0px rgba(83, 83, 83, 0.1);
+}
+
+.fa-arrow-right {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.fa-file-text-o:before {
+  font-size: 1.4rem;
+}
+
+.font-icon {
+  background-color: #e9ececd3;
+  text-align: center;
+  width: 3rem;
+  padding: 0.7rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+
+.point-arrow {
+  background-color: #5bc0de;
+  height: 0.5rem;
+  padding: 0 0.3rem;
+}
+
+.left-card {
+  background-color: #ffc90e !important;
+}
+
+.inner-wrapper {
+  width: 53%;
+}
+
+.fa-list-alt {
+  background-color: #e9ececbe;
+  color: #000000;
+  text-align: center;
+  padding: 1.3rem;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+.fa-list-alt:before {
+  font-size: 3rem;
+}
+
+.fa-file-text {
+  background-color: #e0f6fc;
+  color: #000000;
+  text-align: center;
+  padding: 1.3rem;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+.fa-file-text:before {
+  font-size: 3rem;
+}
+
+.no-invoice {
+  margin-bottom: 6rem;
+}
+
+.left-card {
+  background-color: #ffc90e !important;
+}
+
+.middle-card {
+  background-color: #52e1fa !important;
+}
+
+.right-card {
+  background-color: #ffffff !important;
+}
+
+@media screen and (max-width: 600px) {
+  .total-due {
+    display: block !important;
+  }
+  .invoice-icon {
+    display: block !important;
+  }
+
+  .user-profile {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner-wrapper {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .left-card,
+  .middle-card,
+  .right-card {
+    margin-bottom: 3rem !important;
+  }
 }
