@@ -167,9 +167,9 @@ const BankAccount = () => {
                         Submit buyer invoices and export documentations to get
                         dollar based financing for your export business.
                       </p>
-                      <button className="btn btn-dark btn-lg rounded-pill">
+                      <Button className="btn btn-dark btn-lg rounded-pill">
                         <em>Request Financing</em>
-                      </button>
+                      </Button>
                     </div>
                   </div>
                 </div>
@@ -207,9 +207,9 @@ const BankAccount = () => {
                         Create and send invoice to clients and customers and get
                         your payment in your Front Edge bank account.
                       </p>
-                      <button className="btn btn-dark btn-lg rounded-pill">
+                      <Button className="btn btn-dark btn-lg rounded-pill">
                         <em>Create an Invoice</em>
-                      </button>
+                      </Button>
                     </div>
                   </div>
                 </div>
