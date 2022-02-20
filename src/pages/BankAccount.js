@@ -98,12 +98,15 @@ const BankAccount = () => {
                 <div className="d-flex">
                   <p>
                     Last updated 2 days ago
-                    <i className="fa fa-refresh text-info" aria-hidden="true" />
+                    <i
+                      className="fa fa-refresh text-info ms-2"
+                      aria-hidden="true"
+                    />
                   </p>
                   <p className="ms-5">
                     Download CSV
                     <i
-                      className="fa fa-download text-info"
+                      className="fa fa-download text-info ms-2"
                       aria-hidden="true"
                     />
                   </p>
@@ -141,7 +144,7 @@ const BankAccount = () => {
                 </p>
                 <h6 className="text-info">
                   Get a Business bank account
-                  <span className="point-arrow text-dark rounded-circle">
+                  <span className="point-arrow text-dark rounded-circle ms-2">
                     &gt;
                   </span>
                 </h6>
